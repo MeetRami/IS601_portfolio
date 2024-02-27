@@ -4,20 +4,29 @@
         <meta charset="UTF-8">
         <title>My Resume</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="images/icon.png">
     </head>
     <body>
-        <ul class="nav_List">
-            <li class="nav_item"><a class="active" href="#summary">Summary</a></li>
-            <li class="nav_item"><a href="#education">Education</a></li>
-            <li class="nav_item"><a href="#cv">Work Experience</a></li>
-            <li class="nav_item"><a href="#skills">Skills</a></li>
-            <li class="nav_item"><a href="#award">Awards</a></li>
-            <li class="nav_item"><a href="#hobbies">Hobbies</a></li>
-            <li class="nav_item"><a href="#contactMe">Contact Me</a></li>
-
-        </ul>
-        <h1>Meet Rami</h1>
-        <h3>Summary:</h3>
+        <div class="navBar">
+            <ul class="nav_List">
+                <li class="nav_item"><a class="active" href="#summary">Summary</a></li>
+                <li class="nav_item"><a href="#education">Education</a></li>
+                <li class="nav_item"><a href="#cv">Work Experience</a></li>
+                <li class="nav_item"><a href="#skills">Skills</a></li>
+                <li class="nav_item"><a href="#award">Awards</a></li>
+                <li class="nav_item"><a href="#hobbies">Hobbies</a></li>
+                <li class="nav_item"><a href="#contactMe">Contact Me</a></li>
+            </ul>
+        </div>
+        <div class="intro">
+            <div><img src="./images/profile.jpeg" alt=""><img></div><div style="display: block;">
+                <h1>Meet Rami</h1>
+                <p>I'm a full-time student at NJIT and a part-time esport athlete from Old bridge, New Jersey, USA.</p>
+                <p>I have a great passion for cars, games and technology. So, in my free time you can find me doing either of those</p>
+            </div>
+        </div>
+        
+        <h3>About Me:</h3>
         <div id="summary">
             <p> <h4>Hello and welcome to my web portfolio. Here you will see some of my projects with their brief description, technologies used and difficulties faced </h4></p>
             <p> I am a passionate and self-motivated professional from India raised in middle class family with care and love! I came to United States in 2015 with a great passion and motivation to change and evolve.</p>
@@ -25,46 +34,178 @@
             <p> In past 5 years I have worked on many projects using different computer languages, frameworks and algorithms, which made my adoptation skill improve a lot and broaden my horizon to be a better and successful developer/engineer</p>
         </div>
         <h3>Education:</h3>
-        <div id="education">
-            <p> <h4>Hello and welcome to my web portfolio. Here you will see some of my projects with their brief description, technologies used and difficulties faced </h4></p>
-            <p> I am a passionate and self-motivated professional from India raised in middle class family with care and love! I came to United States in 2015 with a great passion and motivation to change and evolve.</p>
-            <p> I have Completed my Bachelor Degree from New Jersey Institute of Technology in Computer Science in May 2020.</p>
-            <p> In past 5 years I have worked on many projects using different computer languages, frameworks and algorithms, which made my adoptation skill improve a lot and broaden my horizon to be a better and successful developer/engineer</p>
+        <div id="education" style="text-align: center;">
+            <p style="text-align: center; font-weight: bold; display: inline; padding-right: 3em; padding-left: 3em;"> Master of Science in Computer Science, Current</p> &nbsp; <p style="text-align: center; font-weight: bold; display: inline; padding-left: 3em;"> Bachelor of Science in Computer Science, May 2020 </p><br>
+            <p style="text-align: center; display: inline; padding-right: 3em; padding-left: 3em;">  New Jersey institute of Technology, Newark, NJ</p> &nbsp; <p style="text-align: center; display: inline; padding-left: 4.3em;"> Jersey institute of Technology, Newark, NJ </p>
         </div>
         <h3>Work Experience:</h3>
         <div id="cv">
-            <p> <h4>Hello and welcome to my web portfolio. Here you will see some of my projects with their brief description, technologies used and difficulties faced </h4></p>
-            <p> I am a passionate and self-motivated professional from India raised in middle class family with care and love! I came to United States in 2015 with a great passion and motivation to change and evolve.</p>
-            <p> I have Completed my Bachelor Degree from New Jersey Institute of Technology in Computer Science in May 2020.</p>
-            <p> In past 5 years I have worked on many projects using different computer languages, frameworks and algorithms, which made my adoptation skill improve a lot and broaden my horizon to be a better and successful developer/engineer</p>
+            <div class="experience">
+                <span style="font-weight: bold">
+                    Software Engineer/Team Lead
+                </span><br>
+                <p style="display: inline"> Firefly Integrations LLC, Indiana, USA </p> &nbsp; <p style="text-align: right; display: inline;"> March 2021 – July 2023 </p>
+                <ul class="Work_Ex" style="list-style-type: '\2192';">
+                    <li>Designed and Integrated various hardware for different RV coaches</li>
+                    <li>Improving existing codebase for better performance while implementing new features to cater wider range of customers.</li>
+                    <li>Managing team of 10 developers as team lead, focusing on each phase of SDLC. Actively discussing and providing feedback to improve commination between departments for smooth dataflow and accurate information resulting with singular focus in mind: High quality product for our customers.</li>
+                    <li>Using Rest API in JSON format to provide personal experience to each RV being manufactured.</li>
+                    <li>Utilizing web APIs to create internal tools for various departments and increase automation environment to improve work quality and add efficiency.</li>
+                </ul>
+            </div>
+            <div class="experience">
+                <span style="font-weight: bold">
+                    Information Technology Student
+                </span><br>
+                <p style="display: inline"> New Jersey Institute of Technology, Newark, USA</p> &nbsp; <p style="text-align: right; display: inline;"> Sept 2019 – March 2020 </p>
+                <ul class="Work_Ex" style="list-style-type: '\2192';">
+                    <li>Guiding or assisting faculty members with computer difficulties, network connections and printer issues</li>
+                    <li>Successfully managed a demanding workload in responding to telephone calls and e-mails and using Cherwell ticketing system.</li>
+                    <li>Managed group projects like setting up new offices with computers and printers.</li>
+                    <li>Troubleshoot issues regarding software and hardware.</li>
+                </ul>
+            </div>
         </div>
         <h3>Skills:</h3>
         <div id="skills">
-            <p> <h4>Hello and welcome to my web portfolio. Here you will see some of my projects with their brief description, technologies used and difficulties faced </h4></p>
-            <p> I am a passionate and self-motivated professional from India raised in middle class family with care and love! I came to United States in 2015 with a great passion and motivation to change and evolve.</p>
-            <p> I have Completed my Bachelor Degree from New Jersey Institute of Technology in Computer Science in May 2020.</p>
-            <p> In past 5 years I have worked on many projects using different computer languages, frameworks and algorithms, which made my adoptation skill improve a lot and broaden my horizon to be a better and successful developer/engineer</p>
+            <table class="center">
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>JavaScript</td>
+                                <td>⭐️⭐️⭐️⭐️</td>
+                            </tr>
+                            <tr>
+                                <td>CSS3</td>
+                                <td>⭐️⭐️⭐️</td>
+                            </tr>
+                            <tr>
+                                <td>SASS/SCSS</td>
+                                <td>⭐️⭐️⭐️</td>
+                            </tr>
+                            <tr>
+                                <td>Angular</td>
+                                <td>⭐️⭐️⭐️⭐️</td>
+                            </tr>
+                            <tr>
+                                <td>JSON</td>
+                                <td>⭐️⭐️⭐️⭐️⭐️</td>
+                            </tr>
+                            <tr>
+                                <td>Bootstrap</td>
+                                <td>⭐️⭐️⭐️</td>
+                            </tr>
+                            <tr>
+                                <td>MySQL</td>
+                                <td>⭐️⭐️⭐️</td>
+                            </tr>
+                            <tr>
+                                <td>REST-API</td>
+                                <td>⭐️⭐️⭐️⭐️</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <td>Python</td>
+                                <td>⭐️⭐️⭐️⭐️</td>
+                            </tr>
+                            <tr>
+                                <td>Swift</td>
+                                <td>⭐️⭐️⭐️</td>
+                            </tr>
+                            <tr>
+                                <td>Ionic/Capacitor</td>
+                                <td>⭐️⭐️⭐️⭐️</td>
+                            </tr>
+                            <tr>
+                                <td>Object Orientated Programming</td>
+                                <td>⭐️⭐️⭐️⭐️</td>
+                            </tr>
+                            <tr>
+                                <td>Jira</td>
+                                <td>⭐️⭐️⭐️⭐️</td>
+                            </tr>
+                            <tr>
+                                <td>GitHub</td>
+                                <td>⭐️⭐️⭐️⭐️⭐️</td>
+                            </tr>
+                            <tr>
+                                <td>Java</td>
+                                <td>⭐️⭐️⭐️</td>
+                            </tr>
+                            <tr>
+                                <td>SCRUM</td>
+                                <td>⭐️⭐️⭐️⭐️⭐️</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
         </div>
-        <h3>Awards:</h3>
+        <h3>Honors:</h3>
         <div id="award">
-            <p> <h4>Hello and welcome to my web portfolio. Here you will see some of my projects with their brief description, technologies used and difficulties faced </h4></p>
-            <p> I am a passionate and self-motivated professional from India raised in middle class family with care and love! I came to United States in 2015 with a great passion and motivation to change and evolve.</p>
-            <p> I have Completed my Bachelor Degree from New Jersey Institute of Technology in Computer Science in May 2020.</p>
-            <p> In past 5 years I have worked on many projects using different computer languages, frameworks and algorithms, which made my adoptation skill improve a lot and broaden my horizon to be a better and successful developer/engineer</p>
+            <p class="honors">🏆 Dean’s Honor Student List at Raritan Valley CC </p>
+            <p class="honors">🏆 Dean’s Honor Student List at NJIT 2018-2020</p>
+            <p class="honors">🏆 Phi Theta Kappa Honor society member </p>
+            <p class="honors">🏆 State level Kabaddi (indian sport) player</p>
+            <p class="honors">🏆 Various Yoga and other curricular activity certificates </p>
         </div>
         <h3>Hobbies:</h3>
         <div id="hobbies">
-            <p> <h4>Hello and welcome to my web portfolio. Here you will see some of my projects with their brief description, technologies used and difficulties faced </h4></p>
-            <p> I am a passionate and self-motivated professional from India raised in middle class family with care and love! I came to United States in 2015 with a great passion and motivation to change and evolve.</p>
-            <p> I have Completed my Bachelor Degree from New Jersey Institute of Technology in Computer Science in May 2020.</p>
-            <p> In past 5 years I have worked on many projects using different computer languages, frameworks and algorithms, which made my adoptation skill improve a lot and broaden my horizon to be a better and successful developer/engineer</p>
+            <ul style="list-style-type: '\21D2';">
+                <li style="padding-left: 10px;">
+                Apart from being a computer programmer, I enjoy most of my time reading books by or on successful people, listen music of different languages and play PUBG with my squad. </li>
+               <li style="padding-left: 10px;"> 
+                I also like to follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the computer world and try to learn new programming languages.</li>
+               <li style="padding-left: 10px;"> 
+                My recent interest due to Covid-19 is yoga, meditation and excercise, which helps you release stress and keeps you out of anxiety attacks.</li>
+               <li style="padding-left: 10px;">
+                I am also helping small businesses to go digital by creating thier website or web applications for them; I am currently working on a local landscaping company's website and restaurant business's inventory web application</li>
+           </ul>
         </div>
         <h3>Contact me:</h3>
-        <div id="contactMe">
-            <p> <h4>Hello and welcome to my web portfolio. Here you will see some of my projects with their brief description, technologies used and difficulties faced </h4></p>
-            <p> I am a passionate and self-motivated professional from India raised in middle class family with care and love! I came to United States in 2015 with a great passion and motivation to change and evolve.</p>
-            <p> I have Completed my Bachelor Degree from New Jersey Institute of Technology in Computer Science in May 2020.</p>
-            <p> In past 5 years I have worked on many projects using different computer languages, frameworks and algorithms, which made my adoptation skill improve a lot and broaden my horizon to be a better and successful developer/engineer</p>
+        <div id="contactMe" class="contact">
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="mail">Email</label>
+                <input type="email" id="mail" name="email" placeholder="something@email.com.." required>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea>
+            
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="usa">USA</option>
+                  <option value="australia">Mexico</option>
+                  <option value="canada">Canada</option>
+                  
+                </select>
+              
+                <button class="btn submit" name="submit">Submit</button>
+            </form>
+
+            <!-- <form action="" method="post">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="first_name" placeholder="Your name.." required>
+    
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="last_name" placeholder="Your last name.." required>
+    
+                <label for="country">Email</label>
+                <input type="email" id="mail" name="email" placeholder="something@email.com.." required>
+                
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="message" placeholder="Write something.." style="height:200px"></textarea>
+                <button class="btn submit" name="submit">Submit</button>
+              </form> -->
         </div>
     </body>
 </html>
